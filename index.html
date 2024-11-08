@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Mohammed Shahin Choudhury</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>MOHAMMED SHAHIN CHOUDHURY</h1>
+      <p class="tagline">Entrepreneurial leader and tech-driven innovator, turning ideas into impactful ventures across trade, tech, and creative media.</p>
+      <a href="#contact" class="btn">Contact Now</a> <!-- Updated button text and link -->
+    </div>
+    <div class="signature"><img src="sign.png" width="200px" alt=""></div>
+    <div class="hero-image">
+      <img src="MDSC.png" alt="Mohammed Shahin Choudhury">
+    </div>
+  </section>
+
+  <!-- About Section -->
+<!-- About Section -->
+<section id="about">
+    <h2><i class="fas fa-user"></i> About My Expertise</h2>
+    <div class="about-content">
+      <div class="about-text-box">
+        <p>I am a versatile professional with a unique blend of technical and creative skills. My background in Mechanical Engineering is complemented by experience in business development, export-import compliance, and digital marketing.</p>
+        <p><strong>Core Competencies:</strong> Business Development, Project Management, Customer Service, SEO, AI, Music Production, Videography</p>
+      </div>
+      <div class="about-image-box">
+        <img src="banner.png" alt="Professional Experience Image">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Work Experience Section -->
+<!-- Work Experience Section -->
+<section id="work">
+    <h2><i class="fas fa-briefcase"></i> Professional Experiences</h2>
+    <div class="experience-grid">
+      <div class="experience-box layered-box">
+        <h3><i class="fas fa-user-tie"></i> Managing Director - Alifra Export-Import Business</h3>
+        <p>India | June 2024 – Present</p>
+        <p>Established and led Alifra, a team-driven export-import business focused on natural rubber and other goods. Spearheaded a digital presence, including an export catalog website and web applications to enhance user experience.</p>
+      </div>
+      <div class="experience-box layered-box">
+        <h3><i class="fas fa-bullhorn"></i> Marketing Team Leader - Online Casino Gaming Apps Company</h3>
+        <p>Dubai, UAE | 2023 – June 2024</p>
+        <p>Managed marketing strategies, influencer campaigns, and SEO efforts, significantly boosting user acquisition and retention in the gaming sector.</p>
+      </div>
+      <div class="experience-box layered-box">
+        <h3><i class="fas fa-headset"></i> Technical Advisor - Teleperformance</h3>
+        <p>Mohali, India | 2022</p>
+        <p>Provided advanced technical support for Apple products, consistently exceeding performance targets in customer satisfaction through expert troubleshooting.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2><i class="fas fa-code"></i> Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-item">
+        <h3>Casino Gaming Web App</h3>
+        <p>Developed a fully functional casino gaming app front-end using HTML, CSS, and JavaScript, showcasing my technical and creative abilities. <a href="https://github.com/username/project" target="_blank" class="btn">View on GitHub</a></p>
+      </div>
+      <div class="project-item">
+        <h3>Responsive Web Designs</h3>
+        <p>Built mobile-friendly websites and export catalogs for Alifra, enhancing product portfolio accessibility and engagement.</p>
+      </div>
+    </div>
+  </section>
+<!-- Skills & Tools Section -->
+<section id="skills">
+    <h2><i class="fas fa-cogs"></i> Skills & Tools</h2>
+    <ul class="skills-list">
+      <li><strong>Programming:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Design & CAD:</strong> AutoCAD, SolidWorks</li>
+      <li><strong>Marketing & Digital Tools:</strong> SEO, Google Ads, AI, Video Editing</li>
+      <li><strong>Music Production:</strong> Ableton Live, FL Studio</li>
+    </ul>
+  </section>
+  
+  <!-- Education Section -->
+  <section id="education">
+    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+    <ul class="education-list">
+      <li><strong>Bachelor of Technology (B.Tech) in Mechanical Engineering</strong><br>Maharaja Ranjit Singh Punjab Technical University | 2015 – 2019</li>
+    </ul>
+
+    <ul class="education-list">
+        <li><strong>Higher Secondary (+2) (Physics, Chemistry, Maths)</strong><br>Tripura Board Of Secondary Education | 2015</li>
+      </ul>
+
+  </section>
+  
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2><i class="fas fa-certificate"></i> Certifications</h2>
+    <div class="certificates-grid">
+      <div class="certificate-box" onclick="openLightbox(); showCertificate(1);">
+        <img src="cad.png" alt="AutoCAD Certification">
+      </div>
+      <div class="certificate-box" onclick="openLightbox(); showCertificate(2);">
+        <img src="12th.png" alt="SolidWorks Certification">
+      </div>
+      <div class="certificate-box" onclick="openLightbox(); showCertificate(1);">
+        <img src="cad.png" alt="AutoCAD Certification">
+      </div>
+      <div class="certificate-box" onclick="openLightbox(); showCertificate(2);">
+        <img src="12th.png" alt="SolidWorks Certification">
+      </div>
+      <div class="certificate-box" onclick="openLightbox(); showCertificate(1);">
+        <img src="cad.png" alt="AutoCAD Certification">
+      </div>
+      <div class="certificate-box" onclick="openLightbox(); showCertificate(2);">
+        <img src="12th.png" alt="SolidWorks Certification">
+      </div>
+      <!-- Add more certificate-boxes as needed -->
+    </div>
+  
+    <!-- Lightbox for Certificate Viewing -->
+    <div id="lightbox" class="lightbox">
+      <span class="close" onclick="closeLightbox()">&times;</span>
+      <img class="lightbox-content" id="certificate-image">
+      <a class="prev" onclick="changeCertificate(-1)">&#10094;</a>
+      <a class="next" onclick="changeCertificate(1)">&#10095;</a>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2><i class="fas fa-envelope"></i> Let’s Connect</h2>
+
+    <div class="contact-cont">
+    <p>Whether you're interested in collaborating on a project, seeking technical support, or exploring new business opportunities, I’m here to connect.</p>
+
+    <p> <i class="fas fa-envelope"></i> email ID: <a href="mailto:sahilchoudhury612@gmail.com"  class="mail">sahilchoudhury612@gmail.com</a></p>
+    <p style="margin-left: -105px;"><i class="fas fa-phone"></i> Phone: <a href="tel:+916909849707" class="phone" >+91 6909 849 707</a></p>
+    <a href="mailto:youremail@example.com" class="btn">Get in Touch</a>
+
+</div>
+  </section>
+
+  <!-- Footer Section -->
+<footer id="footer">
+    <div class="footer-content">
+      <!-- Logo/Trademark Section -->
+      <div class="footer-logo">
+        <img src="sign.png" alt="Logo" width="50">
+        <p>© 2024 Mohammed Shahin Choudhury. All rights reserved.</p>
+      </div>
+
+            <!-- Social Media Links Section -->
+            <div class="footer-social">
+                <h4>Connect With Me</h4>
+                <ul class="social-icons">
+                  <li><a href="https://www.linkedin.com/in/mdsch" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                  <li><a href="https://www.instagram.com/sociallysahil" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li><a href="https://x.com/sociallysahil" target="_blank"><i class="fas fa-x"></i> X (Twitter)</a></li>
+                  <li><a href="mailto:sahilchoudhury612@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                </ul>
+              </div>
+  
+      <!-- Quick Links Section -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <!-- Explore More Links Section -->
+      <div class="footer-links">
+        <h4>Explore More</h4>
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Expertise</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+        </ul>
+      </div>
+  
+
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
